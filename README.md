@@ -9,21 +9,21 @@ Fourchez ce projet sur votre espace de travail (créer une divergence / fork pro
 
 Clonez votre dépot sur votre machine via la commande
 ```
-git clone git@github.com:votrelogin/ril2021.git
+git clone git@github.com:votrelogin/ril-2021.git
 ```
 ou
 ```
-git clone https://github.com/votrelogin/ril2021.git
+git clone https://github.com/votrelogin/ril-2021.git
 ```
 
 Ajoutez une remote vers le projet global via la commande
 
 ```
-git remote add upstream git@github.com:ril2021/ril2021.git
+git remote add upstream git@github.com:ril-2021/ril-2021.git
 ```
 ou
 ```
-git remote add upstream https://github.com/ril2021/ril2021.git
+git remote add upstream https://github.com/ril-2021/ril-2021.git
 ```
 
 Complétez le cours, ajoutez vos TPs et TDs
