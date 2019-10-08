@@ -5,7 +5,7 @@ Bienvenue sur le dépôt git des cours de RIL !
 Les cours, TDs et TPs seront poussés ici au fur et à mesure de leur écriture.
 
 Comment participer à l'écriture du cours :
-Fourchez ce projet sur votre espace de travail (créer une divergence / fork project), le bouton fork se trouve dans la partie haute de la page d'accueil du dépôt (https://github.com/ril2021/ril2021/)
+Fourchez ce projet sur votre espace de travail (créer une divergence / fork project), le bouton fork se trouve dans la partie haute de la page d'accueil du dépôt (https://github.com/ril-2019/ril-2019/)
 
 Clonez votre dépot sur votre machine via la commande
 ```
