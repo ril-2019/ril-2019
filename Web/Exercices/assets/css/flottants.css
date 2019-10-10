@@ -1,0 +1,13 @@
+#main, #col_left, #col_right, #footer {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#col_left, #col_right {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

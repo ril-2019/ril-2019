@@ -1,0 +1,10 @@
+body {
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+}

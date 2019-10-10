@@ -1,0 +1,14 @@
+programme exercice5
+
+var c_partants, c_joues, x, y : nombre
+
+debut
+	c_partants = lire(stdin)
+	c_joues = lire(stdin)
+
+	x = c_partants! / (c_partants - c_joues)!
+	y = c_partants! / (c_joues! * (c_partants - c_joues)!)
+
+	afficher(x)
+	afficher(y)
+fin

@@ -1,0 +1,14 @@
+div {
+	width:300px;
+	height:300px;
+	border : 1px solid #000;
+	border-top : 5px solid #00FF00;
+	border-bottom: 2px dotted #FF0000;
+	border-bottom-right-radius:50%;
+}
+
+div:hover{
+	border-image-source: url("../images/preferences-color.png");
+	border-image-width : 30px;
+	border-image-slice:75;
+}

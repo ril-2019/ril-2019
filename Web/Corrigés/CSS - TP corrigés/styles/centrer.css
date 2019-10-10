@@ -1,0 +1,18 @@
+body, div{
+	border:1px solid black;
+}
+body{
+	width:80%;
+	margin:auto;
+}
+div{
+	width:50%;
+	margin:auto;
+	height:150px;
+}
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+body {
+    background: linear-gradient(to bottom, red, yellow, green, cyan, blue, violet);
+    height: 100vh;
+}

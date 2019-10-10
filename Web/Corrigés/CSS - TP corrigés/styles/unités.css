@@ -1,0 +1,19 @@
+
+body, div{
+	border:1px solid black;
+}
+
+body{
+	max-width:900px;
+	width:80vw;
+	margin:auto;	
+}
+
+
+#fixe{
+	width:720px;
+}
+
+#variable{
+		width:80%;	
+}

@@ -1,0 +1,29 @@
+body{
+	max-width:900px;
+	margin:auto;
+	width:80%;
+	position: relative;
+}
+
+div{
+	width:300px;
+	height:300px;
+	position:absolute;
+	z-index:1;
+}
+
+#bloc1{
+	background-color : blue;
+	left : 0px;
+}
+
+#bloc2{
+	background-color : green;
+	left : 100px;
+	z-index:3;
+}
+
+#bloc3{
+	background-color : red;
+	left : 200px;
+}

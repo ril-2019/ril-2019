@@ -1,0 +1,6 @@
+var nombre, i : entier;
+
+nombre = lecture(stdin);
+pour i allant de  1 à 10 par pas de 1
+	afficher(nombre * i);
+fin pour;

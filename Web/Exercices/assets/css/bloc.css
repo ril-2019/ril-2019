@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.c1 {
+    padding: 50px 150px 100px 200px;
+    background-color: gray;
+}
+
+.c2 {
+    padding: 150px 75px 150px 50px;
+    background-color: yellow;
+}

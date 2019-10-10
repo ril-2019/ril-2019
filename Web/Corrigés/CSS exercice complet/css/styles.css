@@ -1,0 +1,182 @@
+/* Fixer la page de taille 980px, et aligner au milieu */
+body{
+	width:980px;
+	margin:auto;
+}
+
+h1{
+	text-align: center; /* Aligner le titre niveau 1 au milieu	*/
+    width: 50%; /* Préciser la largeur du titre niveau 1 à 50%*/
+    margin: 10px 20px; /* Mettre les marges gauche et droite de 20px, haut et bas de 10px sur le titre niveau 1, optimiser */
+	display:inline-block; /* le titre doit apparaitre à côté du logo*/ 
+}
+
+#logo{
+	width: 150px; /* Le logo a 150px de large */
+	opacity:0.5;/* Changer l'opacité du logo à 50%*/
+	border-bottom-left-radius:75px;/* Arrondir le coin du logo en bas à gauche de 75px */
+	transform:rotate(45deg); /* Tourner le logo de 45 degrés */
+}
+/* la rétablir au survol de l'image */
+#logo:hover{
+	opacity:1;	
+}
+p, h1{
+	color:blue; /*Mettre tous les paragraphes en bleu*/
+}
+
+#param{
+	color:red; /* Forcer le paragraphe param en rouge */
+}
+
+/* Mettre les elements color en #ABC, #AEEE00 au survol */
+.color{
+	color:#ABC;
+}
+.color:hover{
+	color:#AEEE00;
+}
+/* Mettre la couleur lightcyan sur le fond du contenu */
+main{
+	background-color : lightcyan;
+	width:74%;
+}
+
+/*Mettre la partie aside à gauche (1/4) et main à droite (3/4)*/
+
+aside, main{
+	display:inline-block;
+}
+
+aside{
+	width:25%;
+	vertical-align : top;/* Aligner le texte dans aside vers le haut */
+	background : url("../images/smiley.png") no-repeat top right;/* Afficher l'image smiley.png dans la partie aside, en fond, en haut à droite */
+}
+/*
+main{
+	width:75%;
+}
+*/
+
+p{
+	/*Mettre des pointillés noirs 4px autour des paragraphes*/
+	border : 4px black dotted;
+	padding : 10px; /*Mettre du padding 10px sur tous les paragraphes*/
+}
+
+/* Dans la partie articles, mettre chaque article à 30% de large et les aligner, marge 9px, adapter les images */
+article{ 
+	display:inline-block;
+	width:27%; /* 30% sans bordure */
+	margin:9px;
+	/* Les articles ont une bordure de 10px navy, en conservant l'alignement des articles*/
+	border : 10px navy solid;
+	font-family:Arial;
+}
+
+article img{
+	width:100%;
+}
+
+article p{
+	/*Les paragraphes des articles n'ont pas de bordure et sont de couleur noire*/
+	border:none;
+	color:#000;
+}		
+
+article h3{
+	/* Mettre les titres des articles en majuscule */
+	text-transform:uppercase;
+	font-family:Verdana;
+}
+
+article h3:after{
+	content:url("../images/smiley.png");
+	
+	/* Pour modifier la taille de l'image */
+	/*content: "";
+    display: inline-block;
+    background: url("../images/smiley.png") no-repeat top right;
+	background-size:cover;
+    width: 25px;
+    height: 25px;*/	
+}
+
+main p:first-child{
+	text-indent:20px;
+}
+
+a{
+	 text-decoration: none;
+    color: #4C1B1B;
+}
+
+a:visited{
+	color: #FF358B;
+}
+
+a[target="_blank"]:after{
+	content:url("../images/target.png");
+}
+
+/* Changer les numéros de la liste en chiffres romains */
+ol {
+	list-style-type:upper-roman;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

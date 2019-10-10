@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0
+}
+body{
+	width:80%;
+	margin:auto;
+}
+
+div{
+	border : 1px solid black;
+	width:25%;
+	height:100px;
+	display:inline-block; 
+}

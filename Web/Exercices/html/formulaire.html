@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+    <style>
+        form .input-group {
+            display: block;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mon premier formulaire</h1>
+    <form method="GET" action="action.php" name="formulaire">
+        <fieldset>
+            <legend>Infos personnelles :</legend>
+            <label for="hidden">Ici un champ caché</label>
+            <input type="hidden" id="hidden">
+
+            <div class="input-group">
+                <label for="civilite">Civilité :</label>
+                <input type="radio" name="genre" id="madame">
+                <label for="madame">Mme.</label>
+                <input type="radio" name="genre" id="monsieur">
+                <label for="monsieur">M.</label>
+                <input type="radio" name="genre" id="autre">
+                <label for="autre">Autre</label>
+            </div>
+
+            <div class="input-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom">
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+
+            <div class="input-group">
+                <label for="adresse">Adresse :</label>
+                <textarea></textarea>
+                <select>
+                    <option value="1">68000 COLMAR</option>
+                    <option value="2">67000 COLMAR</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="courriel">Courriel :</label>
+                <input type="email" id="courriel" name="courriel">
+            </div>
+
+            <div class="input-group">
+                <label for="tel">Numéro de téléphone :</label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+
+            <div class="input-group">
+                <label for="personnes">Nombre de personnes qui composent votre foyer</label>
+                <input type="number" id="personnes" name="personnes">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mots de passe :</legend>
+            <div class="input-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password">
+
+                <label for="confirmpassword">Confirmer le mot de passe :</label>
+                <input type="password" id="confirmpassword" name="confirmpassword">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Préférences :</legend>
+            <div class="input-group">
+                <label for="animals">Vos animaux préférés :</label>
+
+                <input type="checkbox" id="chat" name="chat">
+                <label for="chat">Chat</label>
+
+                <input type="checkbox" id="chien" name="chien">
+                <label for="chien">Chien</label>
+
+                <input type="checkbox" id="oiseau" name="oiseau">
+                <label for="oiseau">Oiseau</label>
+
+                <input type="checkbox" id="rat" name="rat">
+                <label for="rat">Rat</label>
+
+                <input type="checkbox" id="autres" name="autres">
+                <label for="autres">Autres</label>
+            </div>
+
+            <div class="input-group">
+                <label for="color">Votre couleur préférée :</label>
+                <input type="color" id="color" name="color">
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Rendez-vous :</legend>
+
+            <div class="input-group">
+                <label for="datetime">Date et heure du rendez-vous :</label>
+                <input type="datetime" id="datetime" name="datetime" placeholder="jj/mm/aaaa">
+            </div>
+
+            <div class="input-group">
+                <label for="doc">Document à envoyer :</label>
+                <input type="file" id="doc" name="doc">
+            </div>
+        </fieldset>
+        <input type="submit" value="Valider">
+        <input type="reset" value="Réinitialiser">
+    </form>
+</body>
+
+</html>

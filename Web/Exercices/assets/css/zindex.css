@@ -1,0 +1,25 @@
+#blocs {
+    margin-left: 5%;
+}
+
+div {
+    position: absolute;
+    height: 300px;
+    width: 400px;
+}
+
+#bloc1 {
+    background-color: blue;
+}
+
+#bloc2 {
+    background-color: green;
+    z-index: 2;
+    left: 100px;
+}
+
+#bloc3 {
+    background-color: red;
+    z-index: 1;
+    left: 200px;
+}

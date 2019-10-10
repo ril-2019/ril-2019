@@ -1,0 +1,19 @@
+p {
+    color: blue;
+}
+
+#id {
+    color: orange;
+}
+
+.classe {
+    color: green;
+}
+
+strong, b {
+    color: red;
+}
+
+p {
+    color: fuchsia !important;
+}
