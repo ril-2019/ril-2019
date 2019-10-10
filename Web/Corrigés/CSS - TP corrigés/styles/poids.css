@@ -1,0 +1,23 @@
+
+
+
+p{
+	color:blue;
+}
+
+#id{
+	color:orange;
+}
+
+.classe{
+	color:green;
+}
+
+strong{
+	color:red;
+}
+
+
+p{
+	color:fuchsia !important;
+}

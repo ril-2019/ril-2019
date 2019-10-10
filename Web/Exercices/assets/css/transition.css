@@ -1,0 +1,11 @@
+body {
+    display: inline;
+}
+
+img {
+    width: 30%;
+    transition: transform .2s; /* Animation */
+}
+img:hover {
+    transform: scale(1.2) rotate(-30deg);
+}

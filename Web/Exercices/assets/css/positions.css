@@ -1,0 +1,22 @@
+nav {
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+img {
+    position: absolute;
+    left: 75%;
+    top: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: gray;
+}

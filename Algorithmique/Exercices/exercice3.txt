@@ -1,0 +1,9 @@
+var nombre: entier;
+
+nombre = lecture(stdin);
+
+pour i  
+	allant de nombre + 1 à nombre + 10 
+	par pas de 1 faire
+		afficher(i);
+finpour;

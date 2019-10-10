@@ -1,0 +1,9 @@
+img {
+	width:50px;
+	transition:10s;
+}
+
+img:hover{
+	width:200px;
+	transform:rotate(30deg);
+}
