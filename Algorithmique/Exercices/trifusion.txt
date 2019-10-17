@@ -1,0 +1,32 @@
+programme tri fusion
+
+fonction fusion(arr:tableau de entier):tableau de entier
+	var l, m:entier
+	var g, d: tableau de entier
+	
+	l = longueur(arr)
+	
+	si l <= 1:
+		retourner arr
+	fin si
+	
+	m = l / 2
+	g = fusion(sousTableau(arr, 0, m-1))
+	d = fusion(sousTableau(arr, m, l-1))
+finFonction
+
+fonction separation(arr1:tableau de entierfonction separation(tableauUn:tableau de entier, tableauDeux:tableau de entier)
+    var arrUn, arrDeux: entier
+    var res: tableau;
+
+    tant que arrUn < len(tableauUn) ET arrDeux < len(TableauDeux) faire
+        si tableauUn(arrUn) < TableauDeux(arrDeux)
+            res.ajouter(tableauUn(arrUn))
+            arrUn += 1
+        sinon
+            res.ajouter(tableauDeux(arrDeux))
+            arrDeux += 1
+        fin si
+
+    res += tableauUn(sousTableau(tableauUn, 0, arrUn)))
+    res += tableauDeux(sousTableau(tableauDeux, 0, arrDeux)))

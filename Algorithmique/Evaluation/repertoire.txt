@@ -1,0 +1,28 @@
+programme repertoire
+
+/* renvoie la taille du répertoire passé en paramètre */
+fonction tailleRepertoire(dir:repertoire)
+    variable contenu : tableau de element;
+    variable i, taille : entier;
+
+    taille = 0;
+
+    pour i allant de 0 à longueur(contenu) par pas de 1
+        si estFichier(contenu[i])
+            taille = taille + tailleFichier(contenu[i]);
+        sinon
+            taille = taille + tailleRepertoire(contenu[i]);
+        finSi
+    finPour
+
+    renvoyer taille
+
+finFonction
+
+variable path:chaine;
+
+afficher("Chemin : ");
+path = lireChaineAuClavier();
+afficher("Taille de " + path + " : " + tailleRepertoire(path));
+
+finProgramme

@@ -3,11 +3,25 @@ programme pgcd
 debut
 
 fonction pgcd (a:entier, b:entier):entier;
+    var r:entier
+	
+	tant que b > 0 faire
+		r = a MOD b
+		a = b
+		b = r
+	fin tant que
+	
+	retourner a
+finFonction
+
+
+fonction pgcd_recursif (a:entier, b:entier):entier;
     si b = 0 alors
 		retourner a
 	retourner pgcd(b, a MOD b)
 finFonction
 
 afficher(pgcd(1071, 1029))
+afficher(pgcd_recursif(1071, 1029))
 
 fin

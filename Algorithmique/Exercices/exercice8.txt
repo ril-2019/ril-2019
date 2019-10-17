@@ -1,0 +1,12 @@
+programme hanoi
+
+var p1, p2, p3: pile
+
+fonction hanoi(n: entier, d:pile, i:pile, a:pile)
+	si n != 0 alors
+		hanoi(n-1, d, i, a)
+		// déplacer le disque de d vers a
+		push(a, depiler(d))
+		hanoi(, n-1), i, a, d)
+	fin si
+fin fonction

@@ -1,0 +1,28 @@
+programme lettres_a_l_envers
+
+debut
+
+
+fonction lettres_a_l_envers (value:chaine, pos:entier):chaine;
+	long = longueur(value)
+	si pos < long / 2 alors
+		var temp = value[pos];
+		value[pos] = value[long - pos - 1]
+		value[long - pos - 1] = temp
+		retourner lettres_a_l_envers (value, pos + 1)
+	fin si
+	retourner value
+finFonction
+
+fonction  inverse(mot:chaine):chaine
+	var p:car
+	p = recupere_premiere_lettre(mot)
+	si mot == p alors
+		retourner mot
+	fin si
+		retourner inverse(decouper(mot, 1), + p)
+finFonction
+
+afficher(lettres_a_l_envers("Hello there", 0))
+
+fin
